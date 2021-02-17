@@ -1,0 +1,66 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END RESET  */
+
+body {
+    font-family: Montserrat sans-serif;
+}
+
+/* HEADER  */
+
+/* COMMON  */
+.container {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    background-color: yellow;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+  /* lists  */
+nav li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+  /* end lists  */
+
+.grey-text {
+    color: #4c6171;
+}
+/* END COMMON  */
+
+/* top navbar  */
+
+.top-nav-container {
+    width: 100%;
+    background-color: #f4f9fd;
+}
+.top-col-left,.top-col-right {
+    width: 20%;
+}
+
+.top-col-right {
+    float: right;
+}
+
+
+
+/* end top navbar  */
+
+/* END HEADER  */
