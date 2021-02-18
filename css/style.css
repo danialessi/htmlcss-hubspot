@@ -166,6 +166,7 @@ p {
 .services-background {
     background-color: #f4f9fd;
     border-top: 2px solid black;
+    height: 1300px;
 }
 
 /* -----top row-----  */
@@ -270,7 +271,6 @@ p {
     margin: 0 10px;
 }
 
-
 .col-left {
     width: 30%;
     text-align: center;
@@ -318,6 +318,26 @@ p {
 }
 /* -----end bottom-row----- */
 /* end services  */
+/* ----------------------da sistemare classi comuni----------------------  */
+
+/* numbers  */
+.numbers-background {
+    height: 550px;
+    background-color: #23b7aa;
+}
+
+.text-row {
+    width: 90%;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+.text-row h2 {
+    font-size: 30px;
+}
 
 
+/* end numbers  */
 /* END MAIN  */
