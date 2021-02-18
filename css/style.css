@@ -235,10 +235,72 @@ p {
     margin-right: 10px;
     margin-top: 20px;
 }
-
 /* -----end center-row----- */
 
 /* -----bottom-row----- */
+.bottom-row {
+    width: 100%;
+    /* test  */
+    height: 500px;
+    background-color: goldenrod;
+}
+
+.bottom-row-col-content {
+    
+}
+
+.bottom-row-left {
+    width: 30%;
+    height: 300px;
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#bottom-row-left-image {
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/marketing-hub-free.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+}
+
+.bottom-row-center {
+    width: 30%;
+    height: 300px;
+    margin: auto 5%;
+    background-color: gray;
+    border: 1px solid black;
+
+}
+
+#bottom-row-center-image {
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/sales-professional-illustration.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+}
+
+.bottom-row-right {
+    width: 30%;
+    height: 300px;
+    background-color: gray;
+    border: 1px solid black;
+
+}
+
+#bottom-row-right-image {
+    height: 100px;
+    width: 100px;
+    background-image: url(../img/service-hub-illustration.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px auto;
+}
+
 /* -----end bottom-row----- */
 /* end services  */
 /* END MAIN  */
