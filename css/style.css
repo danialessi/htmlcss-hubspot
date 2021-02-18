@@ -59,6 +59,12 @@ p {
     width: 150px;
     text-align: center;
 }
+
+.check {
+    color: #fc775b;
+    margin-right: 10px;
+    margin-top: 20px;
+}
 /* END COMMON  */
 
 /* top navbar  */
@@ -158,7 +164,6 @@ p {
 
 /* services  */
 .services-background {
-    height: 1000px;
     background-color: #f4f9fd;
     border-top: 2px solid black;
 }
@@ -187,6 +192,7 @@ p {
 .center-row {
     width: 100%;
     background-color: white;
+    margin-top: 50px;
 }
 
 .center-row-left {
@@ -230,34 +236,48 @@ p {
     margin-right: 10px;
 }
 
-.center-row-right li i {
-    color: #fc775b;
-    margin-right: 10px;
-    margin-top: 20px;
-}
 /* -----end center-row----- */
 
 /* -----bottom-row----- */
 .bottom-row {
     width: 100%;
-    /* test  */
-    height: 500px;
-    background-color: goldenrod;
+    margin: 5% auto;
 }
 
-.bottom-row-col-content {
-    
+.top-col-content {
+    width: 80%;
+    margin: auto;
 }
 
-.bottom-row-left {
+.bottom-col-content {
+    width: 80%;
+    margin: 40px auto;
+    border-top: 1px solid black;
+    padding-top: 50px;
+}
+
+.bottom-col-content ul {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.bottom-col-content li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.bottom-col-content li i {
+    margin: 0 10px;
+}
+
+
+.col-left {
     width: 30%;
-    height: 300px;
-    background-color: gray;
-    border: 1px solid black;
     text-align: center;
+    background-color: white;
 }
 
-#bottom-row-left-image {
+.col-left-image {
     height: 100px;
     width: 100px;
     background-image: url(../img/marketing-hub-free.svg);
@@ -266,16 +286,14 @@ p {
     margin: 20px auto;
 }
 
-.bottom-row-center {
+.col-center {
     width: 30%;
-    height: 300px;
     margin: auto 5%;
-    background-color: gray;
-    border: 1px solid black;
-
+    text-align: center;
+    background-color: white;
 }
 
-#bottom-row-center-image {
+.col-center-image {
     height: 100px;
     width: 100px;
     background-image: url(../img/sales-professional-illustration.svg);
@@ -284,15 +302,13 @@ p {
     margin: 20px auto;
 }
 
-.bottom-row-right {
+.col-right {
     width: 30%;
-    height: 300px;
-    background-color: gray;
-    border: 1px solid black;
-
+    text-align: center;
+    background-color: white;
 }
 
-#bottom-row-right-image {
+.col-right-image {
     height: 100px;
     width: 100px;
     background-image: url(../img/service-hub-illustration.svg);
@@ -300,7 +316,8 @@ p {
     background-position: center;
     margin: 20px auto;
 }
-
 /* -----end bottom-row----- */
 /* end services  */
+
+
 /* END MAIN  */
