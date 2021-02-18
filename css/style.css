@@ -48,6 +48,17 @@ p {
     font-size: 15px;
 }
 
+.big-button {
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid orange;
+    border-radius: 5px;
+    color: white;
+    background-color: #fa775a;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+}
 /* END COMMON  */
 
 /* top navbar  */
@@ -132,14 +143,6 @@ p {
     margin-bottom: 10px;
 }
 
-.big-button {
-    display: inline-block;
-    border: 1px solid orange;
-    border-radius: 5px;
-    color: white;
-    background-color: #fa775a;
-    padding: 15px;
-}
 /* end banner  */
 /* END HEADER  */
 
@@ -182,24 +185,60 @@ p {
 
 /* -----center-row----- */
 .center-row {
-    height: 500px;
     width: 100%;
-    background-color: darkblue;
+    background-color: white;
 }
 
 .center-row-left {
-    width: 30%;
-    border: 1px solid black;
+    width: 40%;
+    height: 200px;
+    margin: 30px auto;
+    text-align: center;
 }
 
 #center-row-left-image {
-    height: 190px;
+    height: 100px;
     width: 100px;
     background-image: url(../img/crm-Illustration.svg);
     background-repeat: no-repeat;
     background-position: center;
+    margin: auto;
 }
+
+.center-row-left a {
+    margin-top: 10px;
+}
+
+.center-row-right {
+    width: 50%;
+    height: 200px;
+    margin: 30px auto;
+}
+
+.center-row-right h4 {
+    display: inline-block;
+}
+
+.line {
+    border: 1px solid grey;
+    display: block;
+}
+
+.center-row-right li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.center-row-right li i {
+    color: #fc775b;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
 /* -----end center-row----- */
 
+/* -----bottom-row----- */
+/* -----end bottom-row----- */
 /* end services  */
 /* END MAIN  */
