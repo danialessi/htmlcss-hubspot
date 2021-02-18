@@ -16,8 +16,6 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    
-    /* test  */
 }
 
 .clearfix::after {
@@ -42,8 +40,14 @@ a {
 
 .grey-text {
     color: #4c6171;
+}
+
+p {
+    line-height: 20px;
+    margin: 20px auto;
     font-size: 15px;
 }
+
 /* END COMMON  */
 
 /* top navbar  */
@@ -110,31 +114,22 @@ a {
 
 /* banner  */
 .banner-background {
-    /* test  */
-    height: 500px;
-    
+    height: 550px;
     background-color: #fff4ef;
     background-image: url(../img/jumbotron.png);
     background-size: 900px;
     background-repeat: no-repeat;
-    background-position: 100% 184%;
+    background-position: 100% 147%;
 }
 
 .banner-title {
     width: 40%;
-    /* test  */
-    /* height: 300px; */
     margin-top: 100px;
 }
 
 .banner-title h1 {
-    font-size: 50px;
+    font-size: 40px;
     margin-bottom: 10px;
-}
-
-.banner-title p {
-    line-height: 20px;
-    margin: 20px auto;
 }
 
 .big-button {
@@ -145,8 +140,66 @@ a {
     background-color: #fa775a;
     padding: 15px;
 }
-
-
 /* end banner  */
-
 /* END HEADER  */
+
+/* spacer  */
+.spacer {
+    height: 60px;
+    background-color: #afebe4;
+    border-top: 2px solid black;
+}
+/* end spacer  */
+
+/* MAIN  */
+
+/* services  */
+.services-background {
+    height: 1000px;
+    background-color: #f4f9fd;
+    border-top: 2px solid black;
+}
+
+/* -----top row-----  */
+.top-row {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#top-row-image {
+    height: 190px;
+    background-image: url(../img/integrations_illustration.webp);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-row h2 {
+    font-size: 30px;
+}
+/* -----end top-row-----  */
+
+/* -----center-row----- */
+.center-row {
+    height: 500px;
+    width: 100%;
+    background-color: darkblue;
+}
+
+.center-row-left {
+    width: 30%;
+    border: 1px solid black;
+}
+
+#center-row-left-image {
+    height: 190px;
+    width: 100px;
+    background-image: url(../img/crm-Illustration.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* -----end center-row----- */
+
+/* end services  */
+/* END MAIN  */
