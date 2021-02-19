@@ -7,7 +7,7 @@
 /* END RESET  */
 
 body {
-    font-family: Montserrat sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 /* COMMON  */
@@ -49,15 +49,23 @@ a {
 p {
     line-height: 20px;
     margin: 20px auto;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 h2 {
     font-size: 30px;
 }
 
-.big-button {
+h3 {
+    font-size: 20px;
+}
+
+h4 {
     font-size: 15px;
+}
+
+.big-button {
+    font-size: 12px;
     display: inline-block;
     border: 1px solid orange;
     border-radius: 5px;
@@ -76,6 +84,7 @@ h2 {
 /* END COMMON  */
 
 /* HEADER  */
+
 /* top navbar  */
 .top-nav-container {
     background-color: #f4f9fd;
@@ -107,7 +116,7 @@ h2 {
     color: orange;
     background-color: white;
     padding: 5px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .orange-nav-button {
@@ -116,7 +125,7 @@ h2 {
     color: white;
     background-color: #fa775a;
     padding: 5px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .nav-col-right li {
@@ -137,6 +146,11 @@ h2 {
 
 .logo-nav-col-right li {
     padding-left: 20px;
+    font-size: 14px;
+}
+
+.logo-nav-col-right i {
+    padding-left: 10px;
 }
 /* end logo navbar  */
 
@@ -183,7 +197,7 @@ h2 {
 /* -----top row-----  */
 .top-row {
     width: 60%;
-    margin: 30px auto;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -202,19 +216,19 @@ h2 {
 .center-row {
     width: 100%;
     background-color: white;
-    margin-top: 50px;
+    margin: 30px auto;
+    box-shadow: 2px 5px #e7edf1;
 }
 
 .center-row-left {
     width: 40%;
-    height: 200px;
     margin: 30px auto;
     text-align: center;
 }
 
 #center-row-left-image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-image: url(../img/crm-Illustration.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -227,8 +241,7 @@ h2 {
 
 .center-row-right {
     width: 50%;
-    height: 200px;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 .center-row-right h4 {
@@ -236,13 +249,17 @@ h2 {
 }
 
 .line {
+    width: 300px;
     border: 1px solid grey;
-    display: block;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 30px;
 }
 
 .center-row-right li {
     display: inline-block;
     margin-right: 10px;
+    font-size: 12px;
 }
 
 /* -----end center-row----- */
@@ -272,6 +289,7 @@ h2 {
 
 .bottom-col-content li {
     text-align: left;
+    font-size: 12px;
 }
 
 .bottom-col-content li i {
@@ -282,15 +300,20 @@ h2 {
     width: 30%;
     text-align: center;
     background-color: white;
+    box-shadow: 2px 5px #e7edf1;
 }
 
-.col-left-image {
+.col-image {
     height: 100px;
     width: 100px;
-    background-image: url(../img/marketing-hub-free.svg);
     background-repeat: no-repeat;
     background-position: center;
     margin: 20px auto;
+}
+
+.col-left-image {
+
+    background-image: url(../img/marketing-hub-free.svg);
 }
 
 .col-center {
@@ -298,38 +321,28 @@ h2 {
     margin: auto 5%;
     text-align: center;
     background-color: white;
+    box-shadow: 2px 5px #e7edf1;
 }
 
 .col-center-image {
-    height: 100px;
-    width: 100px;
     background-image: url(../img/sales-professional-illustration.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px auto;
 }
 
 .col-right {
     width: 30%;
     text-align: center;
     background-color: white;
+    box-shadow: 2px 5px #e7edf1;
 }
 
 .col-right-image {
-    height: 100px;
-    width: 100px;
     background-image: url(../img/service-hub-illustration.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px auto;
 }
 /* -----end bottom-row----- */
 /* end services  */
-/* ----------------------da sistemare classi comuni----------------------  */
 
 /* numbers  */
 .numbers-background {
-    /* height: 550px; */
     background: rgb(0,165,187);
     background: linear-gradient(54deg, rgba(0,165,187,1) 20%, rgba(0,178,175,1) 47%, rgba(0,187,168,1) 89%);
 }
@@ -348,7 +361,8 @@ h2 {
 
 .numbers-row {
     width: 100%;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .numbers-col {
@@ -377,7 +391,6 @@ h2 {
 
 .numbers-bottom-container {
     width: 100%;
-    height: 50%;
     text-align: center;
     color: white;
     padding: 20px;
@@ -393,12 +406,11 @@ h2 {
 .logos-row {
     width: 80%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .total-col {
     width: 40%;
-    padding: 30px;
 }
 
 .total-col h3 {
@@ -407,7 +419,7 @@ h2 {
 
 .logos-col {
     width: 60%;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .logos {
@@ -428,8 +440,7 @@ h2 {
 
 .oriental-row {
     width: 100%;
-    height: 300px;
-    margin-top: 10px;
+    padding-top: 60px;
 }
 
 .start-col {
@@ -450,21 +461,17 @@ h2 {
 
 /* FOOTER  */
 .footer-background {
-    height: 550px;
     background-color: #32495b;
 }
 
 .link-row {
     width: 100%;
-    height: 300px;
-    margin-top: 50px;
-    padding: 40px;
+    padding: 50px 0;
 }
 
 .link-col {
     width: 25%;
-    height: 300px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .link-title {
@@ -472,7 +479,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.link-col a {
+.link-list a {
     color: white;
     line-height: 30px;
 }
@@ -481,11 +488,10 @@ h2 {
     display: inline-block;
     border: 1px solid #dadee0;
     border-radius: 3px;
-    color: #4c6171;
     background-color: #dadee0;
     padding: 5px;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .social-network li{
@@ -496,7 +502,7 @@ h2 {
 .lang-row {
     width: 100%;
     border-bottom: 1px solid white;
-    margin-top: 100px;
+    margin-top: 90px;
     text-align: center;
 }
 
@@ -507,16 +513,15 @@ h2 {
 
 .lang-row a {
     color: white;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .final-row {
-    padding: 30px 0px;
+    padding: 50px 0;
 }
 
 .final-logo-col {
     width: 80%;
-    height: 80px;
 }
 
 .final-right-col {
@@ -525,12 +530,15 @@ h2 {
 
 .copyright {
     color: white;
-    font-size: 15px;
+    font-size: 12px;
 }
 
-.final-right-col p {
+.final-right-col a {
     display: inline-block;
     color: white;
+    padding-top: 10px;
     padding-right: 10px;
+    font-size: 12px;
+    line-height: 20px;
 }
 /* END FOOTER  */
