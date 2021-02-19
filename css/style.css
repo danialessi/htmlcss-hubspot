@@ -323,7 +323,8 @@ p {
 /* numbers  */
 .numbers-background {
     height: 550px;
-    background-color: #23b7aa;
+    background: rgb(0,165,187);
+    background: linear-gradient(54deg, rgba(0,165,187,1) 20%, rgba(0,178,175,1) 47%, rgba(0,187,168,1) 89%);
 }
 
 .text-row {
@@ -338,6 +339,50 @@ p {
     font-size: 30px;
 }
 
+.numbers-row {
+    width: 100%;
+    margin-top: 50px;
+}
 
+.numbers-col {
+    width: 25%;
+    height: 300px;
+    border-right: 1px solid white;
+}
+
+.numbers-container {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.big-number {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.numbers-row p {
+    color: white;
+    margin: 5px auto;
+}
+
+.numbers-bottom-container {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.numbers-last-col {
+    width: 25%;
+    height: 300px;
+}
 /* end numbers  */
+
+
 /* END MAIN  */
