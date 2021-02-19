@@ -36,16 +36,23 @@ nav li {
 a {
     text-decoration: none;
 }
-  /* end lists  */
 
 .grey-text {
     color: #4c6171;
+}
+
+.title-grey {
+    color: #33475b;
 }
 
 p {
     line-height: 20px;
     margin: 20px auto;
     font-size: 15px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .big-button {
@@ -184,9 +191,7 @@ p {
     background-position: center;
 }
 
-.top-row h2 {
-    font-size: 30px;
-}
+
 /* -----end top-row-----  */
 
 /* -----center-row----- */
@@ -341,18 +346,16 @@ p {
 
 .numbers-row {
     width: 100%;
-    margin-top: 50px;
+    padding-top: 30px;
 }
 
 .numbers-col {
     width: 25%;
-    height: 300px;
     border-right: 1px solid white;
 }
 
 .numbers-container {
     width: 100%;
-    height: 50%;
     border-bottom: 1px solid white;
     text-align: center;
     color: white;
@@ -380,9 +383,66 @@ p {
 
 .numbers-last-col {
     width: 25%;
-    height: 300px;
 }
 /* end numbers  */
 
+/* customers  */
 
+.logos-row {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.total-col {
+    width: 40%;
+    padding: 30px;
+}
+
+.total-col h3 {
+    font-size: 40px;
+}
+
+.logos-col {
+    width: 60%;
+    padding-top: 30px;
+}
+
+.logos {
+    list-style-type: none;
+}
+
+.logos li {
+    display: inline-block;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.logos img {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.oriental-row {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.start-col {
+    width: 40%;
+}
+
+.oriental-col {
+    width: 55%;
+    height: 300px;
+    margin-bottom: 50px;
+    background-image: url(../img/woman.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* end customers  */
 /* END MAIN  */
+
