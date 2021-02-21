@@ -93,12 +93,22 @@ h4 {
 .nav-col-left {
     width: 70%;
     margin: 20px auto;
+    font-size: 14px;
 }
 
 .nav-col-right {
     width: 30%;
     margin: 20px auto;
     text-align: right;
+}
+
+.nav-col-right li {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.nav-col-right li i {
+    color: #68c7d7;
 }
 
 .language {
@@ -115,7 +125,7 @@ h4 {
     border-radius: 5px;
     color: orange;
     background-color: white;
-    padding: 5px;
+    padding: 7px;
     font-size: 12px;
 }
 
@@ -124,7 +134,7 @@ h4 {
     border-radius: 5px;
     color: white;
     background-color: #fa775a;
-    padding: 5px;
+    padding: 7px;
     font-size: 12px;
 }
 
@@ -156,12 +166,12 @@ h4 {
 
 /* banner  */
 .banner-background {
-    height: 550px;
+    height: 531px;
     background-color: #fff4ef;
     background-image: url(../img/jumbotron.png);
-    background-size: 900px;
+    background-size: 1245px;
     background-repeat: no-repeat;
-    background-position: 100% 147%;
+    background-position: 100% 2%;
 }
 
 .banner-title {
@@ -222,7 +232,7 @@ h4 {
 
 .center-row-left {
     width: 40%;
-    margin: 30px auto;
+    margin: 40px auto;
     text-align: center;
 }
 
@@ -479,7 +489,7 @@ h4 {
     margin-bottom: 20px;
 }
 
-.link-list a {
+.link-list li a {
     color: white;
     line-height: 30px;
 }
@@ -489,14 +499,15 @@ h4 {
     border: 1px solid #dadee0;
     border-radius: 3px;
     background-color: #dadee0;
-    padding: 5px;
+    padding: 7px;
     margin-top: 10px;
     font-size: 12px;
 }
 
 .social-network li{
     display: inline-block;
-    padding: 10px 10px 0px 0px;
+    padding: 10px 20px 0px 0px;
+    font-size: 15px;
 }
 
 .lang-row {
