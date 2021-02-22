@@ -12,7 +12,7 @@ body {
 
 /* COMMON  */
 .container {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -144,6 +144,7 @@ h4 {
 /* end top navbar  */
 
 /* logo navbar  */
+
 .logo-nav-col-left,.logo-nav-col-right {
     width: 50%;
     margin: 20px auto;
@@ -313,6 +314,10 @@ h4 {
     box-shadow: 2px 5px #e7edf1;
 }
 
+.col-left p {
+    padding-bottom: 20px;
+}
+
 .col-image {
     height: 100px;
     width: 100px;
@@ -322,7 +327,6 @@ h4 {
 }
 
 .col-left-image {
-
     background-image: url(../img/marketing-hub-free.svg);
 }
 
@@ -508,6 +512,10 @@ h4 {
     display: inline-block;
     padding: 10px 20px 0px 0px;
     font-size: 15px;
+}
+
+.social-network li a {
+    color: white;
 }
 
 .lang-row {
