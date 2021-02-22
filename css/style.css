@@ -305,6 +305,7 @@ h4 {
     text-align: center;
     background-color: white;
     box-shadow: 2px 5px #e7edf1;
+    margin-bottom: 40px;
 }
 
 .col-left p {
@@ -329,7 +330,6 @@ h4 {
     text-align: center;
     background-color: white;
     box-shadow: 2px 5px #e7edf1;
-    padding-bottom: 20px;
 }
 
 .col-center-image {
