@@ -219,8 +219,6 @@ h4 {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
 /* -----end top-row-----  */
 
 /* -----center-row----- */
@@ -237,7 +235,7 @@ h4 {
     text-align: center;
 }
 
-#center-row-left-image {
+.center-row-left-image {
     height: 150px;
     width: 150px;
     background-image: url(../img/crm-Illustration.svg);
