@@ -202,7 +202,6 @@ h4 {
 .services-background {
     background-color: #f4f9fd;
     border-top: 2px solid black;
-    height: 1300px;
 }
 
 /* -----top row-----  */
@@ -274,10 +273,6 @@ h4 {
 /* -----end center-row----- */
 
 /* -----bottom-row----- */
-.bottom-row {
-    width: 100%;
-    margin: 5% auto;
-}
 
 .top-col-content {
     width: 80%;
@@ -334,6 +329,7 @@ h4 {
     text-align: center;
     background-color: white;
     box-shadow: 2px 5px #e7edf1;
+    padding-bottom: 20px;
 }
 
 .col-center-image {
@@ -355,7 +351,6 @@ h4 {
 
 /* numbers  */
 .numbers-background {
-    background: rgb(0,165,187);
     background: linear-gradient(54deg, rgba(0,165,187,1) 20%, rgba(0,178,175,1) 47%, rgba(0,187,168,1) 89%);
 }
 
@@ -432,10 +427,6 @@ h4 {
 .logos-col {
     width: 60%;
     padding-top: 10px;
-}
-
-.logos {
-    list-style-type: none;
 }
 
 .logos li {
